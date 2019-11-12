@@ -1,10 +1,10 @@
 .Main-Text{
-  background-image: url("https://www.kichler.com/globalassets/images/photography/2.-level-3-headers/1920x400/landscape-modernfarmhouse-wide-1920x400.jpg");
+  background-image: url("/img/farmhouse.png");
   background-repeat:no-repeat;
   background-size:cover;
   width: 100%;
   position: absolute;
-  height:25%;
+  height:50%;
   margin: auto;
   text-align: center;
 
@@ -18,20 +18,23 @@ position: relative;
 }
 
 .selling{
-position: fixed;
- top: 50%;
- left: 40%;
+position: relative;
+ margin-right:auto!important;
+  margin-left:auto!important;
  font-size: 1.5em;
  color: black;
+ max-width:200px;
+ margin-top:80px;
 }
 .sellpic{
 	position: fixed;
-	top: 25%;
+	top: 50%;
 	left: 12%;
- background-image:url("https://realtybiznews.com/wp-content/uploads/2019/08/20160524-Share-KCM.jpg");
+ background-image:url("/img/savings.png");
  background-size:cover;
  width:75%;
  height:55%;
+
 
 }
 
@@ -48,18 +51,19 @@ position: fixed;
   }
 .homecard {
   position:relative;
-  width:66%;
+  width:100%;
   max-width:360px;
   background-color: black;
   overflow-wrap:break-word;
   word-wrap:break-word;
   color: white;
   border-radius:.25em .25em .25em .25em;
-  width: 19.5em;
+  width: 16.5em;
   height: 21.5em;
   margin-bottom: 1em;
   margin-left: 2.5em;
   margin-right:0em;
+  overflow:auto;
 }
 .card-container{
  position:relative;
@@ -85,7 +89,27 @@ height: auto;
   color:white;
   padding-left:0;
 }
-
+.navigation label{
+  margin-bottom:0;
+  padding-top:3px;
+}
+.homevalue{
+  
+  background:none;
+  color:white;
+  border:0;
+border-bottom:1px solid grey;
+}
+.filtervalue{
+  background:none;
+  color:white;
+  border:none;
+  padding:0 7px 0px 0px;
+}
+.filtervalue:hover {
+  color:#E30022;
+  text-decoration:underline grey;
+  }
 .gogl-map{
   padding-left: 0;
 }
@@ -96,4 +120,39 @@ height: auto;
 }
 .navigation{
   font-size:16px;
+}
+.google-text {
+font-size: 16px;
+text-align: center;
+}
+.extrafilters{
+padding:5px;
+border:0;
+border-bottom:1px solid grey;
+border-radius:3px;
+color:white;
+background:none;
+border-color:grey;
+}
+.dropdown{
+  color:white;
+  margin:0 auto;
+  background:black;
+  border-radius: 0px 0px 5px 5px;
+  padding:15px 0px;
+  border:1px solid grey;
+}
+.filterblock{
+  display:block;
+}
+.closefilters{
+border:0;
+color:white;
+background:none;
+border-color:grey;
+}
+.closefilters:hover{
+border-bottom:1px solid grey;
+border-radius:3px;
+color:#E30022;
 }
